@@ -432,13 +432,13 @@ class Main:
 		print(" \033[1;37m[▪]Select Option")
 		print("\033[0;90m \033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
 		print(" \033[1;39m━▷ \033[1;33m【1】 \033[1;92mBest Crack FB File Cloning\033[0;92m   ✓💯(Best)")	
-		print(" \033[1;39m━▷ \033[1;33m【2】 \033[1;92mSimple Old Cloning Id's 2006-10 \033[0;92m × (TimePass)")
-		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;92mSimple Old Cloning Id's 2011-16\033[0;92m  × (Time Pass) ")
+		print(" \033[1;39m━▷ \033[1;33m【2】 \033[1;92mCreate File with Cokies&Token\033[0;92m 🤫(Moye Moye)")
+		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;92mSimple Old Cloning Id's 2011-16\033[0;92m× (TimePass) ")
 		print(" \033[1;39m━▷ \033[1;33m【4】 \033[1;93mSimple Facebook Unlimited ")
 		print(" \033[1;39m━▷ \033[0;91m【E】 Exit \n")
 		MAINUL =input(" \033[1;38mChoice : ")
 		if MAINUL in ["1", "01"]:
-			os.system("xdg-open youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
+			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
 			File()
 		if MAINUL in ["2", "02"]:
 			os.system("xdg-open https://chat.whatsapp.com/JKxaAH8ehBi3o35hYyfWYP")
