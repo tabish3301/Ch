@@ -1,3 +1,4 @@
+dssghssfhhh
 #DECOMPILE BY Ch Tabish
 #FILE NAME (Ch Tabish-DEC)
 W = '\033[97;1m'
