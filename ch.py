@@ -300,7 +300,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[strating] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -339,7 +339,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ Count] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[starting] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -391,12 +391,10 @@ logo = """\033[1;30m
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[1;39m━▷ \033[0;92m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m Ch Tabish
 \033[1;39m━▷ \033[0;92m𝙏𝙀𝘼𝙈     \033[1;39m◈✙◈\033[1;33m TEAM OF CHAUDHARY 
-\033[1;39m━▷ \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;33mCHAUDHARY-TABISH 
-\033[1;39m━▷ \033[0;92m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;33mFACEBOOK ZONE 🙂🙈
-\033[1;39m━▷ \033[0;92m𝙒𝙋 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;33mSTARTING EXIT SELECT AND JOIN
+\033[1;39m━▷ \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;33mCHAUDHARY-Tabish
 \033[1;39m━▷ \033[0;92m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;33mFREE AND ENJOY
 \033[1;39m━▷ \033[0;92m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;91mA.114
-\033[1;39m━▷ \033[1;33m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 Tabish 𝙊𝙒𝙉𝙀𝙍 𝙊𝙁 CH
+\033[1;39m━▷ \033[1;33m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 𝙏𝘼𝘽𝙄𝙎𝙃 𝙊𝙒𝙉𝙀𝙍 𝙊𝙁 🇨 🇭 
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""
  
 class Main:
@@ -411,29 +409,15 @@ class Main:
 		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
 		print("\033[1;37m     FIRST OF ALL SUBSCRIBE MY CHANNEL")
 		print("\033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬▬●")
-		print(" \033[1;39m━▷\033[1;32m [1] Facebook hacking ")
-		print(" \033[1;39m━▷\033[1;31m [0] Exit")
-		print("   🇵🇰")
-		baloch = input("\n\033[1;37m  \033[1;38mChoice \033[1;37m━━> \033[1;32m")
-		if baloch in ["xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH"]:
-			exit()
-		elif baloch in ["2", "02"]:
-			print("    CHAL BAGH 🤭")
-			os.system("xdg-open http://Wa.me/+923156419952")
-			exit()
-		elif baloch in ["1", "01"]:
-			os.system("xdg-open https://chat.whatsapp.com/HjhnmgIeHtq9LhpH4xhCkM")
-			print("")
-			time.sleep(2.0)
-		print(logo)
-		print(" \033[1;37m[▪]Select Option")
-		print("\033[0;90m \033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
+		
+		
 		print(" \033[1;39m━▷ \033[1;33m【1】 \033[1;92mBest Crack FB File Cloning\033[0;92m   ✓💯(Best)")	
 		print(" \033[1;39m━▷ \033[1;33m【2】 \033[1;92mCreate File with Cokies&Token\033[0;92m 🤫(Moye Moye)")
 		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;92mSimple Old Cloning Id's 2010-20\033[0;92m× (TimePass) ")
-		print(" \033[1;39m━▷ \033[1;33m【4】 \033[1;93mSimple Facebook Unlimited ")
+		print(" \033[1;39m━▷ \033[1;33m【4】 \033[1;93mJoin Whatsapp Group")
 		print(" \033[1;39m━▷ \033[0;91m【E】 Exit \n")
-		MAINUL =input(" \033[1;34mChoice : ")
+		print("\033[0;90m \033[1;33m     ●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
+		MAINUL =input(" \033[1;36mChoice : ")
 		if MAINUL in ["1", "01"]:
 			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
 			File()
@@ -441,7 +425,7 @@ class Main:
 			os.system("xdg-open https://chat.whatsapp.com/G526jCk6gI90N4XNWbC3AH")
 			Public()
 		if MAINUL in ["4", "04"]:
-			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
+			os.system("xdg-open https://chat.whatsapp.com/G526jCk6gI90N4XNWbC3AH")
 			self.old()
 		if MAINUL in ["5", "05"]:
 			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
