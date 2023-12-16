@@ -393,7 +393,7 @@ logo = """\033[1;30m
 \033[1;39m━▷ \033[0;92m𝙏𝙀𝘼𝙈     \033[1;39m◈✙◈\033[1;33m TEAM OF CHAUDHARY 
 \033[1;39m━▷ \033[0;92m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;33mCHAUDHARY-Tabish
 \033[1;39m━▷ \033[0;92m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;33mFREE AND ENJOY
-\033[1;39m━▷ \033[0;92m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;91mA.116
+\033[1;39m━▷ \033[0;92m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;91mA.117
 \033[1;39m━▷ \033[1;33m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 𝙏𝘼𝘽𝙄𝙎𝙃 𝙊𝙒𝙉𝙀𝙍 𝙊𝙁 🇨 🇭 
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""
  
@@ -425,10 +425,10 @@ class Main:
 			os.system("xdg-open https://chat.whatsapp.com/G526jCk6gI90N4XNWbC3AH")
 			Public()
 		if MAINUL in ["4", "04"]:
-			os.system("xdg-open https://chat.whatsapp.com/G526jCk6gI90N4XNWbC3AH")
+			os.system("xdg-open https://chat.whatsapp.com/HjhnmgIeHtq9LhpH4xhCkM")
 			self.old()
 		if MAINUL in ["5", "05"]:
-			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
+			os.system("xdg-open https://chat.whatsapp.com/HjhnmgIeHtq9LhpH4xhCkM")
 			self.old2()
 			exit()
 		else:
