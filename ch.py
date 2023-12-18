@@ -377,7 +377,7 @@ def follow(ses,coki):
 	r = sop(ses.get('https://mbasic.facebook.com/profile', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
-os.system ("https://chat.whatsapp.com/J54ds3VTt2292ZaT4vYoJq")
+os.system ("xdg-open https://chat.whatsapp.com/J54ds3VTt2292ZaT4vYoJq")
 logo = ("""\033[1;30m
 \033[0;92m    CHAUDHARY[✓]New Free Command enjoy™️
 \033[1;97m----------------------------------------------\033[1;97m
