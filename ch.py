@@ -267,7 +267,7 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [✓] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [✓] \033[1;92m🛫Turn Airplane Mode ✈️ On/Off Every 5 Minutes🛬\033[1;0m\n♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪'%(okc,cpc))
+	print(logo);print( '\n [✓] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [✓] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [✓] \033[1;92m🛫Turn Airplane Mode ✈️ On/Off Every 5 Minutes🛬\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
